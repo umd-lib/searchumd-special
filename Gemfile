@@ -55,8 +55,6 @@ gem 'quick_search-placeholder_searcher'
 
 # -END Inserted by QuickSearch-
 
-
-
 # -Inserted by QuickSearch-
 
 # QuickSearch theme
@@ -66,8 +64,6 @@ gem 'quick_search-placeholder_searcher'
 gem 'quick_search-generic_theme'
 
 # END -Inserted by QuickSearch-
-
-
 
 group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
