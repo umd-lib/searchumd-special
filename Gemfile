@@ -37,6 +37,35 @@ gem 'jbuilder', '~> 2.5'
 # Using "master" branch, because tagged versions are old
 gem 'quick_search-core', git: 'https://github.com/NCSU-Libraries/quick_search.git'
 
+# -Inserted by QuickSearch-
+
+# QuickSearch searchers
+#
+# If you want to use different searchers, remove/replace these and be sure to remove them from
+# your config/quick_search_config.yml file as well as references to them in your theme's search
+# results page template
+
+gem 'quick_search-wikipedia_searcher'
+gem 'quick_search-open_library_searcher'
+gem 'quick_search-arxiv_searcher'
+gem 'quick_search-placeholder_searcher'
+
+# -END Inserted by QuickSearch-
+
+
+
+# -Inserted by QuickSearch-
+
+# QuickSearch theme
+#
+# Remove the following if you want to use a different theme
+
+gem 'quick_search-generic_theme'
+
+# END -Inserted by QuickSearch-
+
+
+
 group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
   gem 'byebug', platforms: %i[mri mingw x64_mingw]
