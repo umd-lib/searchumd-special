@@ -35,7 +35,7 @@ gem 'jbuilder', '~> 2.5'
 # gem 'capistrano-rails', group: :development
 
 # Using "master" branch, because tagged versions are old
-gem 'quick_search-core', git: 'git://github.com/NCSU-Libraries/quick_search.git'
+gem 'quick_search-core', git: 'https://github.com/NCSU-Libraries/quick_search.git'
 
 group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console

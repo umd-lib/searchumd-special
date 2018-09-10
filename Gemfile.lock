@@ -1,5 +1,5 @@
 GIT
-  remote: git://github.com/NCSU-Libraries/quick_search.git
+  remote: https://github.com/NCSU-Libraries/quick_search.git
   revision: 3c130f46e85ff8181e3c3110892f1da7f6c9ae0c
   specs:
     quick_search-core (0.2.0)
