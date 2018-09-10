@@ -34,6 +34,9 @@ gem 'jbuilder', '~> 2.5'
 # Use Capistrano for deployment
 # gem 'capistrano-rails', group: :development
 
+# Use jquery as the JavaScript library
+gem 'jquery-rails'
+
 # Using "master" branch, because tagged versions are old
 gem 'quick_search-core', git: 'https://github.com/NCSU-Libraries/quick_search.git'
 
