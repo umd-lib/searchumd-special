@@ -21,3 +21,9 @@
 /yarn-error.log
 
 .byebug_history
+
+# Ignore minitest-ci reports
+test/reports
+
+# Ignore coverage report
+coverage

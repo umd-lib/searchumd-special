@@ -74,6 +74,12 @@ group :development, :test do
   gem 'selenium-webdriver'
 end
 
+group :test do
+  gem 'simplecov', '~> 0.15.1', require: false
+  gem 'simplecov-rcov', '~> 0.2.3', require: false
+  gem 'minitest-reporters', '~> 1.1.19'
+end
+
 group :development do
   # Access an IRB console on exception pages or by using <%= console %> anywhere in the code.
   gem 'web-console', '>= 3.3.0'
