@@ -11,6 +11,20 @@ GIT
       nokogiri
       rails (~> 5.0)
 
+GIT
+  remote: https://github.com/umd-lib/quick_search-umd_theme.git
+  revision: 7974326def4cd6082022ded601f88ef2ab29362a
+  branch: develop
+  specs:
+    quick_search-umd_theme (0.1.0)
+      compass (~> 1.0)
+      compass-rails (~> 3.0)
+      font-awesome-sass (~> 4.4)
+      foundation-rails (= 5.4.5)
+      quick_search-core (~> 0.1)
+      sass (~> 3.2)
+      sass-rails (~> 5.0)
+
 GEM
   remote: https://rubygems.org/
   specs:
@@ -155,14 +169,6 @@ GEM
     quick_search-arxiv_searcher (0.0.1)
       nokogiri (~> 1.6)
       quick_search-core (~> 0)
-    quick_search-generic_theme (0.1.0)
-      compass (~> 1.0)
-      compass-rails (~> 3.0)
-      font-awesome-sass (~> 4.4)
-      foundation-rails (= 5.4.5)
-      quick_search-core (~> 0.1)
-      sass (~> 3.2)
-      sass-rails (~> 5.0)
     quick_search-open_library_searcher (0.0.1)
       quick_search-core (~> 0)
     quick_search-placeholder_searcher (0.0.1)
@@ -270,9 +276,9 @@ DEPENDENCIES
   puma (~> 3.7)
   quick_search-arxiv_searcher
   quick_search-core!
-  quick_search-generic_theme
   quick_search-open_library_searcher
   quick_search-placeholder_searcher
+  quick_search-umd_theme!
   quick_search-wikipedia_searcher
   rails (~> 5.1.6)
   rubocop (= 0.59.0)

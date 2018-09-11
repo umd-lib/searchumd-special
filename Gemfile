@@ -61,7 +61,8 @@ gem 'quick_search-placeholder_searcher'
 #
 # Remove the following if you want to use a different theme
 
-gem 'quick_search-generic_theme'
+gem 'quick_search-umd_theme',
+    git: 'https://github.com/umd-lib/quick_search-umd_theme.git', branch: 'develop'
 
 # END -Inserted by QuickSearch-
 
