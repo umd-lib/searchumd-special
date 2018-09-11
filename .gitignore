@@ -31,3 +31,9 @@ coverage
 # Ignore .env .env.production
 .env
 .env.production
+
+# Ignore Bundler vendored files
+vendor/bundle
+
+# Ignore pre-compiled assets
+public/assets
