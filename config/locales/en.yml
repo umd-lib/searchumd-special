@@ -30,4 +30,8 @@
 # available at http://guides.rubyonrails.org/i18n.html.
 
 en:
-  hello: "Hello world"
+  defaults_search:
+    display_name: "Special and Digital Collections"
+    title_name: "Special and Digital Collections"
+    search_form_placeholder: "Search the collections"
+    module_callout: "Search for anything in our collections!"
