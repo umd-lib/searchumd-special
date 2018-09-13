@@ -28,6 +28,7 @@ Bundler/OrderedGems:
 Style/StringLiterals:
   Exclude:
     - config/puma.rb
+
 Style/PercentLiteralDelimiters:
   Exclude:
     - config/spring.rb
