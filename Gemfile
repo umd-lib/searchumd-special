@@ -55,7 +55,6 @@ gem 'quick_search-core', git: 'https://github.com/umd-lib/quick_search.git', bra
 # your config/quick_search_config.yml file as well as references to them in your theme's search
 # results page template
 
-gem 'quick_search-wikipedia_searcher'
 gem 'quick_search-open_library_searcher'
 gem 'quick_search-archives_space_searcher',
     git: 'https://github.com/umd-lib/quick_search-archives_space_searcher.git',
@@ -68,6 +67,9 @@ gem 'quick_search-drum_searcher',
 gem 'quick_search-internet_archive_searcher',
     git: 'https://github.com/umd-lib/quick_search-internet_archive_searcher',
     branch: 'develop'
+
+gem 'quick_search-fedora_searcher',
+    git: 'https://github.com/umd-lib/quick_search-fedora_searcher.git', branch: 'develop'
 
 # -END Inserted by QuickSearch-
 
