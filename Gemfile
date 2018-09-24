@@ -52,9 +52,11 @@ gem 'quick_search-core', git: 'https://github.com/NCSU-Libraries/quick_search.gi
 # results page template
 
 gem 'quick_search-wikipedia_searcher'
-gem 'quick_search-open_library_searcher'
 gem 'quick_search-arxiv_searcher'
 gem 'quick_search-placeholder_searcher'
+
+gem 'quick_search-drum_searcher',
+    git: 'https://github.com/umd-lib/quick_search-drum_searcher.git', branch: 'develop'
 
 # -END Inserted by QuickSearch-
 

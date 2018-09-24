@@ -33,3 +33,7 @@ PROD_DATABASE_PORT=5432
 
 # Pool size
 PROD_DATABASE_POOL=10
+
+# --- config/searchers/drum_config.yml
+# The URL for the DRUM site
+DRUM_SITE_URL=
