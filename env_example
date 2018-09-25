@@ -33,3 +33,10 @@ PROD_DATABASE_PORT=5432
 
 # Pool size
 PROD_DATABASE_POOL=10
+
+# --- config/searchers/archives_space_config
+# The ArchivesSpace search endpoint
+ARCHIVES_SPACE_URL=
+
+# The ArchivesSpace Solr search endpoint
+ARCHIVES_SPACE_SOLR_URL=

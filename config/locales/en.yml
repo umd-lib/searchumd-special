@@ -35,3 +35,5 @@ en:
     title_name: "Special and Digital Collections"
     search_form_placeholder: "Search the collections"
     module_callout: "Search for anything in our collections!"
+  archives_space_search:
+    no_results_link:
