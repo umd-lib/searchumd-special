@@ -36,4 +36,8 @@ en:
     search_form_placeholder: "Search the collections"
     module_callout: "Search for anything in our collections!"
   archives_space_search:
+    # Configure no_results_link in config/searchers/drum_config.yml
+    no_results_link:
+  DRUM_search:
+    # Configure no_results_link in config/searchers/drum_config.yml
     no_results_link:
