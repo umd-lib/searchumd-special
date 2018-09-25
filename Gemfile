@@ -58,6 +58,9 @@ gem 'quick_search-archives_space_searcher',
     branch: 'develop'
 gem 'quick_search-placeholder_searcher'
 
+gem 'quick_search-drum_searcher',
+    git: 'https://github.com/umd-lib/quick_search-drum_searcher.git', branch: 'develop'
+
 # -END Inserted by QuickSearch-
 
 # -Inserted by QuickSearch-

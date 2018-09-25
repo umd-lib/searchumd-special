@@ -40,3 +40,7 @@ ARCHIVES_SPACE_URL=
 
 # The ArchivesSpace Solr search endpoint
 ARCHIVES_SPACE_SOLR_URL=
+
+# --- config/searchers/drum_config.yml
+# The URL for the DRUM site
+DRUM_SITE_URL=
