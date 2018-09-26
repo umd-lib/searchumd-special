@@ -61,6 +61,10 @@ gem 'quick_search-placeholder_searcher'
 gem 'quick_search-drum_searcher',
     git: 'https://github.com/umd-lib/quick_search-drum_searcher.git', branch: 'develop'
 
+gem 'quick_search-internet_archive_searcher',
+    git: 'https://github.com/umd-lib/quick_search-internet_archive_searcher',
+    branch: 'feature/LIBSEARCH-83'
+
 # -END Inserted by QuickSearch-
 
 # -Inserted by QuickSearch-

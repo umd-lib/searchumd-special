@@ -29,6 +29,14 @@ GIT
       quick_search-core (~> 0)
 
 GIT
+  remote: https://github.com/umd-lib/quick_search-internet_archive_searcher
+  revision: f5da32d5954040ed77fb5f5520e9beb2124b2df1
+  branch: feature/LIBSEARCH-83
+  specs:
+    quick_search-internet_archive_searcher (0.1.0)
+      quick_search-core (~> 0)
+
+GIT
   remote: https://github.com/umd-lib/quick_search-umd_theme.git
   revision: 7974326def4cd6082022ded601f88ef2ab29362a
   branch: develop
@@ -314,6 +322,7 @@ DEPENDENCIES
   quick_search-archives_space_searcher!
   quick_search-core!
   quick_search-drum_searcher!
+  quick_search-internet_archive_searcher!
   quick_search-open_library_searcher
   quick_search-placeholder_searcher
   quick_search-umd_theme!
