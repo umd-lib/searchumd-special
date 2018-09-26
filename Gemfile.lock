@@ -12,6 +12,23 @@ GIT
       rails (~> 5.0)
 
 GIT
+  remote: https://github.com/umd-lib/quick_search-archives_space_searcher.git
+  revision: a201b02d31e54a4a7b0fa7115fce5fec56371a90
+  branch: develop
+  specs:
+    quick_search-archives_space_searcher (0.1.0)
+      quick_search-core (~> 0)
+
+GIT
+  remote: https://github.com/umd-lib/quick_search-drum_searcher.git
+  revision: b714ea673202cdfa9c1c89355fc34fab08c1acc2
+  branch: develop
+  specs:
+    quick_search-drum_searcher (0.1.0)
+      nokogiri
+      quick_search-core (~> 0)
+
+GIT
   remote: https://github.com/umd-lib/quick_search-umd_theme.git
   revision: 7974326def4cd6082022ded601f88ef2ab29362a
   branch: develop
@@ -179,9 +196,6 @@ GEM
     powerpack (0.1.2)
     public_suffix (3.0.3)
     puma (3.12.0)
-    quick_search-arxiv_searcher (0.0.1)
-      nokogiri (~> 1.6)
-      quick_search-core (~> 0)
     quick_search-open_library_searcher (0.0.1)
       quick_search-core (~> 0)
     quick_search-placeholder_searcher (0.0.1)
@@ -297,8 +311,9 @@ DEPENDENCIES
   minitest-reporters (~> 1.1.19)
   pg (~> 0.18.4)
   puma (~> 3.7)
-  quick_search-arxiv_searcher
+  quick_search-archives_space_searcher!
   quick_search-core!
+  quick_search-drum_searcher!
   quick_search-open_library_searcher
   quick_search-placeholder_searcher
   quick_search-umd_theme!
