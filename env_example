@@ -44,3 +44,6 @@ ARCHIVES_SPACE_SOLR_URL=
 # --- config/searchers/drum_config.yml
 # The URL for the DRUM site
 DRUM_SITE_URL=
+
+RAILS_ENV=
+RAILS_RELATIVE_ROOL_URL=
