@@ -47,4 +47,6 @@ en:
   internet_archive_search:
     # Configure no_results_link in config/searchers/internet_archive_config.yml
     no_results_link:
-
+  maryland_map_search:
+    # Configure no_results_link in config/searchers/maryland_map_config.yml
+    no_results_link:

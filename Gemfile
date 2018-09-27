@@ -71,6 +71,9 @@ gem 'quick_search-internet_archive_searcher',
 gem 'quick_search-fedora_searcher',
     git: 'https://github.com/umd-lib/quick_search-fedora_searcher.git', branch: 'develop'
 
+gem 'quick_search-maryland_map_searcher',
+    git: 'https://github.com/umd-lib/quick_search-maryland_map_searcher.git', branch: 'develop'
+
 # -END Inserted by QuickSearch-
 
 # -Inserted by QuickSearch-
