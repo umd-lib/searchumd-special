@@ -18,7 +18,7 @@ defaults: &defaults
   #
   # See docs for more details: https://github.com/NCSU-Libraries/quick_search/blob/master/docs/configuration.md
 
-  searchers: [best_bets,archives_space,DRUM,wikipedia,internet_archive]
+  searchers: [best_bets,archives_space,DRUM,wikipedia,internet_archive, placeholder]
   found_types: [archives_space,DRUM,wikipedia,internet_archive,placeholder,placeholder,placeholder]
 
   per_page: 3
