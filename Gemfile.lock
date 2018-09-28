@@ -30,8 +30,8 @@ GIT
 
 GIT
   remote: https://github.com/umd-lib/quick_search-internet_archive_searcher
-  revision: f5da32d5954040ed77fb5f5520e9beb2124b2df1
-  branch: feature/LIBSEARCH-83
+  revision: d9f2d5b6479abb947120e40632485cc32efcc700
+  branch: develop
   specs:
     quick_search-internet_archive_searcher (0.1.0)
       quick_search-core (~> 0)

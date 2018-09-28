@@ -63,7 +63,7 @@ gem 'quick_search-drum_searcher',
 
 gem 'quick_search-internet_archive_searcher',
     git: 'https://github.com/umd-lib/quick_search-internet_archive_searcher',
-    branch: 'feature/LIBSEARCH-83'
+    branch: 'develop'
 
 # -END Inserted by QuickSearch-
 
