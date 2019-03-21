@@ -1,6 +1,6 @@
 GIT
   remote: https://github.com/umd-lib/quick_search-archives_space_searcher.git
-  revision: a201b02d31e54a4a7b0fa7115fce5fec56371a90
+  revision: e9b1b6b4afe2edc1f085d235401778f349f9bcd6
   branch: develop
   specs:
     quick_search-archives_space_searcher (0.1.0)
@@ -8,7 +8,7 @@ GIT
 
 GIT
   remote: https://github.com/umd-lib/quick_search-drum_searcher.git
-  revision: b714ea673202cdfa9c1c89355fc34fab08c1acc2
+  revision: cd223573a2d19bda37fc024fd9bd2c050ea2b287
   branch: develop
   specs:
     quick_search-drum_searcher (0.1.0)
@@ -17,7 +17,7 @@ GIT
 
 GIT
   remote: https://github.com/umd-lib/quick_search-internet_archive_searcher
-  revision: 44c7e5678e22305d68eb89a3632d35d05cb5aff5
+  revision: 023d8668651e66b7c40af11600be34f52d237a1f
   branch: develop
   specs:
     quick_search-internet_archive_searcher (0.1.0)
