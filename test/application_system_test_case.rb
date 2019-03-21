@@ -2,7 +2,7 @@
 
 require 'test_helper'
 
-# Abstract base class for system tests
+# Base class for system tests
 class ApplicationSystemTestCase < ActionDispatch::SystemTestCase
   driven_by :selenium, using: :chrome, screen_size: [1400, 1400]
 end
