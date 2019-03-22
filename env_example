@@ -51,3 +51,7 @@ FEDORA_HIPPO_SITE_URL=
 
 # The URL path to native search interface
 FEDORA_HIPPO_SITE_SEARCH_PATH=searchnew
+
+# -- config/searchers/maryland_map_config.yml
+# The base URL for the Hippo website
+MARYLAND_MAP_HIPPO_SITE_URL=

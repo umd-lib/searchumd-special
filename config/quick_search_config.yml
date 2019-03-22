@@ -18,8 +18,8 @@ defaults: &defaults
   #
   # See docs for more details: https://github.com/NCSU-Libraries/quick_search/blob/master/docs/configuration.md
 
-  searchers: [best_bets,archives_space,DRUM,fedora,internet_archive,placeholder]
-  found_types: [archives_space,DRUM,fedora,internet_archive,placeholder,placeholder,placeholder]
+  searchers: [best_bets,archives_space,DRUM,fedora,internet_archive,maryland_map,placeholder]
+  found_types: [archives_space,DRUM,fedora,internet_archive,maryland_map,placeholder,placeholder]
 
   per_page: 3
   max_per_page: 50
