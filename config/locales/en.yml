@@ -38,6 +38,9 @@ en:
   archives_space_search:
     # Configure no_results_link in config/searchers/archives_space_config.yml
     no_results_link:
+  fedora_search:
+    # Configure no_results_link in config/searchers/fedora_config.yml
+    no_results_link:
   DRUM_search:
     # Configure no_results_link in config/searchers/drum_config.yml
     no_results_link:

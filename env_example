@@ -44,3 +44,10 @@ ARCHIVES_SPACE_SOLR_URL=
 # --- config/searchers/drum_config.yml
 # The URL for the DRUM site
 DRUM_SITE_URL=
+
+# --- config/searchers/fedora_config.yml
+# The base URL for performing Fedora searches using the Hippo CMS
+FEDORA_HIPPO_SITE_URL=
+
+# The URL path to native search interface
+FEDORA_HIPPO_SITE_SEARCH_PATH=searchnew
