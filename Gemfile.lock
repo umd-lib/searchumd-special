@@ -16,11 +16,27 @@ GIT
       quick_search-core (~> 0)
 
 GIT
+  remote: https://github.com/umd-lib/quick_search-fedora_searcher.git
+  revision: 474df6d0891c51481dfed70090ab494359fb3c32
+  branch: develop
+  specs:
+    quick_search-fedora_searcher (0.1.0)
+      quick_search-core (~> 0)
+
+GIT
   remote: https://github.com/umd-lib/quick_search-internet_archive_searcher
   revision: 023d8668651e66b7c40af11600be34f52d237a1f
   branch: develop
   specs:
     quick_search-internet_archive_searcher (0.1.0)
+      quick_search-core (~> 0)
+
+GIT
+  remote: https://github.com/umd-lib/quick_search-maryland_map_searcher.git
+  revision: a84e9580d3ae11bcfbdd33a9cc342dc12f9caeea
+  branch: develop
+  specs:
+    quick_search-maryland_map_searcher (0.1.0)
       quick_search-core (~> 0)
 
 GIT
@@ -227,7 +243,6 @@ GEM
       quick_search-core (~> 0)
     quick_search-placeholder_searcher (0.0.1)
       quick_search-core (~> 0)
-    quick_search-wikipedia_searcher (0.0.1)
     rack (2.0.6)
     rack-test (1.1.0)
       rack (>= 1.0, < 3)
@@ -345,11 +360,12 @@ DEPENDENCIES
   quick_search-archives_space_searcher!
   quick_search-core!
   quick_search-drum_searcher!
+  quick_search-fedora_searcher!
   quick_search-internet_archive_searcher!
+  quick_search-maryland_map_searcher!
   quick_search-open_library_searcher
   quick_search-placeholder_searcher
   quick_search-umd_theme!
-  quick_search-wikipedia_searcher
   rails (~> 5.2.2, >= 5.2.2.1)
   rubocop (= 0.66.0)
   rubocop-checkstyle_formatter (~> 0.4.0)
