@@ -6,6 +6,12 @@ collections.
 Based on the NSCU QuickSearch Rails engine
 ([https://github.com/NCSU-Libraries/quick_search][quick_search]).
 
+This application wraps the NCSU QuickSearch engine.
+
+Note: This application is currently using a UMD-customized fork of the
+NCSU QuickSearch application at
+[https://github.com/umd-lib/quick_search][umd_quick_search].
+
 ## Quick Start
 
 Requires:
