@@ -1,5 +1,14 @@
 # SearchUMD-Special
 
+---
+
+## ARCHIVED REPOSITORY
+
+This repository has been archived, and is no longer being developed or
+maintained.
+
+---
+
 UMD Libraries bento-box search application for searching Special and Digital
 collections.
 
